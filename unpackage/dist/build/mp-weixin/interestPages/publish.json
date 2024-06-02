@@ -1,0 +1,17 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "tn-nav-bar": "/tuniao-ui/components/tn-nav-bar/tn-nav-bar",
+    "tn-tabs": "/tuniao-ui/components/tn-tabs/tn-tabs",
+    "tn-empty": "/tuniao-ui/components/tn-empty/tn-empty",
+    "u--text": "/node-modules/uview-ui/components/u--text/u--text",
+    "u-album": "/node-modules/uview-ui/components/u-album/u-album",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "tn-action-sheet": "/tuniao-ui/components/tn-action-sheet/tn-action-sheet",
+    "u-modal": "/node-modules/uview-ui/components/u-modal/u-modal",
+    "tn-avatar": "/tuniao-ui/components/tn-avatar/tn-avatar",
+    "tn-grid": "/tuniao-ui/components/tn-grid/tn-grid",
+    "tn-grid-item": "/tuniao-ui/components/tn-grid-item/tn-grid-item"
+  }
+}

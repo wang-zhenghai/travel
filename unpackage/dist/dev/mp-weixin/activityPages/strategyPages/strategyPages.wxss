@@ -1,0 +1,182 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为Tuniao UI的集成样式文件，为scss预处理器，其中包含了一些"tn-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * Tuniao UI自定义的css类名和scss变量，均以"tn-"开头，不会造成冲突，请放心使用 
+ */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.uni-list {
+  background-color: #FFFFFF;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.uni-list:after {
+  position: absolute;
+  z-index: 10;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  content: '';
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  background-color: #c8c7cc;
+}
+.uni-list::before {
+  position: absolute;
+  z-index: 10;
+  right: 0;
+  top: 0;
+  left: 0;
+  height: 1px;
+  content: '';
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  background-color: #c8c7cc;
+}
+.uni-list-cell {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.uni-list-cell-hover {
+  background-color: #eee;
+}
+.uni-list-cell::after {
+  position: absolute;
+  z-index: 3;
+  right: 0;
+  bottom: 0;
+  left: 30rpx;
+  height: 1px;
+  content: '';
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  background-color: #c8c7cc;
+}
+.uni-list .uni-list-cell:last-child::after {
+  height: 0rpx;
+}
+/* 图文列表 */
+.uni-media-list {
+  padding: 22rpx 30rpx;
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+.uni-navigate-right.uni-media-list {
+  padding-right: 74rpx;
+}
+.uni-pull-right {
+  flex-direction: row-reverse;
+}
+.uni-pull-right > .uni-media-list-logo {
+  margin-right: 0rpx;
+  margin-left: 20rpx;
+}
+.uni-media-list-logo image {
+  height: 100%;
+  width: 100%;
+}
+.uni-media-list-text-bottom {
+  width: 100%;
+  line-height: 30rpx;
+  font-size: 26rpx;
+  color: #8f8f94;
+}
+.uni-media-list-logo {
+  width: 180rpx;
+  height: 140rpx;
+  margin-right: 20rpx;
+}
+.uni-media-list-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  overflow: hidden;
+  height: auto;
+}
+.uni-media-list-text-top {
+  width: 100%;
+  line-height: 36rpx;
+  font-size: 30rpx;
+  height: 74rpx;
+  font-size: 28rpx;
+  overflow: hidden;
+}
+.uni-media-list-text-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.tn-custom-nav-bar__back {
+  width: 60%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 1000rpx;
+  border: 1rpx solid rgba(255, 255, 255, 0.5);
+  color: #FFFFFF;
+  font-size: 18px;
+}
+.tn-custom-nav-bar__back .icon {
+  display: block;
+  flex: 1;
+  margin: auto;
+  text-align: center;
+}
+/* 顶部渐变*/
+.tn-navbg {
+  background: linear-gradient(-120deg, #00aa7f, #aaff00, #00ffff, #ea7e0a);
+  background-size: 500% 500%;
+  -webkit-animation: gradientBG 15s ease infinite;
+          animation: gradientBG 15s ease infinite;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+@-webkit-keyframes gradientBG {
+0% {
+    background-position: 0% 50%;
+}
+50% {
+    background-position: 100% 50%;
+}
+100% {
+    background-position: 0% 50%;
+}
+}
+@keyframes gradientBG {
+0% {
+    background-position: 0% 50%;
+}
+50% {
+    background-position: 100% 50%;
+}
+100% {
+    background-position: 0% 50%;
+}
+}
+

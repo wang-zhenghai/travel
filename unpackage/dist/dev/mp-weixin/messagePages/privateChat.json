@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "私聊",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#F6f7f8",
+  "navigationStyle": "default",
+  "usingComponents": {
+    "u--image": "/node-modules/uview-ui/components/u--image/u--image"
+  }
+}

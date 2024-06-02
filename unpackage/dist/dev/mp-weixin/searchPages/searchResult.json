@@ -1,0 +1,21 @@
+{
+  "navigationBarTitleText": "搜索结果",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "tn-nav-bar": "/tuniao-ui/components/tn-nav-bar/tn-nav-bar",
+    "u-search": "/node-modules/uview-ui/components/u-search/u-search",
+    "tn-button": "/tuniao-ui/components/tn-button/tn-button",
+    "tn-tabs": "/tuniao-ui/components/tn-tabs/tn-tabs",
+    "tn-empty": "/tuniao-ui/components/tn-empty/tn-empty",
+    "tn-tag": "/tuniao-ui/components/tn-tag/tn-tag",
+    "u--image": "/node-modules/uview-ui/components/u--image/u--image",
+    "u-loading-icon": "/node-modules/uview-ui/components/u-loading-icon/u-loading-icon",
+    "u-rate": "/node-modules/uview-ui/components/u-rate/u-rate",
+    "u-gap": "/node-modules/uview-ui/components/u-gap/u-gap",
+    "water-fall": "/components/waterFall/waterFall",
+    "u-list": "/node-modules/uview-ui/components/u-list/u-list",
+    "u-list-item": "/node-modules/uview-ui/components/u-list-item/u-list-item",
+    "u-cell": "/node-modules/uview-ui/components/u-cell/u-cell",
+    "u-avatar": "/node-modules/uview-ui/components/u-avatar/u-avatar"
+  }
+}

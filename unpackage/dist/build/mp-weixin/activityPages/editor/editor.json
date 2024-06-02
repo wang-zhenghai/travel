@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "tn-nav-bar": "/tuniao-ui/components/tn-nav-bar/tn-nav-bar",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "u--input": "/node-modules/uview-ui/components/u--input/u--input",
+    "u-overlay": "/node-modules/uview-ui/components/u-overlay/u-overlay",
+    "tn-circle-progress": "/tuniao-ui/components/tn-circle-progress/tn-circle-progress"
+  }
+}

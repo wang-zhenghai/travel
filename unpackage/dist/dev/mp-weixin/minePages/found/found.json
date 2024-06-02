@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "tn-nav-bar": "/tuniao-ui/components/tn-nav-bar/tn-nav-bar",
+    "u--image": "/node-modules/uview-ui/components/u--image/u--image",
+    "u-loading-icon": "/node-modules/uview-ui/components/u-loading-icon/u-loading-icon",
+    "u-rate": "/node-modules/uview-ui/components/u-rate/u-rate",
+    "u-gap": "/node-modules/uview-ui/components/u-gap/u-gap",
+    "loading": "/components/loading/loading"
+  }
+}

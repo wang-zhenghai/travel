@@ -1,0 +1,13 @@
+{
+  "onReachBottomDistance": 500,
+  "navigationBarTitleText": "博主_Me",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "tn-nav-bar": "/tuniao-ui/components/tn-nav-bar/tn-nav-bar",
+    "tn-avatar": "/tuniao-ui/components/tn-avatar/tn-avatar",
+    "u-album": "/node-modules/uview-ui/components/u-album/u-album",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "tn-empty": "/tuniao-ui/components/tn-empty/tn-empty",
+    "loading": "/components/loading/loading"
+  }
+}

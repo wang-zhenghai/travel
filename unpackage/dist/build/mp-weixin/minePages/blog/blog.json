@@ -1,0 +1,27 @@
+{
+  "navigationBarTitleText": "游记详情",
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#694d9f",
+  "usingComponents": {
+    "tn-nav-bar": "/tuniao-ui/components/tn-nav-bar/tn-nav-bar",
+    "u-swiper": "/node-modules/uview-ui/components/u-swiper/u-swiper",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "u-tag": "/node-modules/uview-ui/components/u-tag/u-tag",
+    "u-read-more": "/node-modules/uview-ui/components/u-read-more/u-read-more",
+    "u-parse": "/node-modules/uview-ui/components/u-parse/u-parse",
+    "u-divider": "/node-modules/uview-ui/components/u-divider/u-divider",
+    "tn-empty": "/tuniao-ui/components/tn-empty/tn-empty",
+    "tn-tag": "/tuniao-ui/components/tn-tag/tn-tag",
+    "tn-avatar": "/tuniao-ui/components/tn-avatar/tn-avatar",
+    "u-modal": "/node-modules/uview-ui/components/u-modal/u-modal",
+    "u-overlay": "/node-modules/uview-ui/components/u-overlay/u-overlay",
+    "u--textarea": "/node-modules/uview-ui/components/u--textarea/u--textarea",
+    "tn-popup": "/tuniao-ui/components/tn-popup/tn-popup",
+    "u-line": "/node-modules/uview-ui/components/u-line/u-line",
+    "tn-button": "/tuniao-ui/components/tn-button/tn-button",
+    "u-tabbar": "/node-modules/uview-ui/components/u-tabbar/u-tabbar",
+    "u--input": "/node-modules/uview-ui/components/u--input/u--input",
+    "u-tabbar-item": "/node-modules/uview-ui/components/u-tabbar-item/u-tabbar-item",
+    "nav-index-button": "/libs/components/nav-index-button"
+  }
+}

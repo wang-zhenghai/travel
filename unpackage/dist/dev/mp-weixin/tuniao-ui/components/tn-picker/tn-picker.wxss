@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为Tuniao UI的集成样式文件，为scss预处理器，其中包含了一些"tn-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * Tuniao UI自定义的css类名和scss变量，均以"tn-"开头，不会造成冲突，请放心使用 
+ */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.tn-picker__content.data-v-44db1900 {
+  position: relative;
+}
+.tn-picker__content__header.data-v-44db1900 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 90rpx;
+  padding: 0 40rpx;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  font-size: 30rpx;
+  background-color: #FFFFFF;
+}
+.tn-picker__content__header__btn.data-v-44db1900 {
+  padding: 16rpx;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+}
+.tn-picker__content__header__title.data-v-44db1900 {
+  color: #080808;
+}
+.tn-picker__content__header--cancel.data-v-44db1900 {
+  color: #AAAAAA;
+}
+.tn-picker__content__header--confirm.data-v-44db1900 {
+  color: #01BEFF;
+}
+.tn-picker__content__body.data-v-44db1900 {
+  width: 100%;
+  height: 500rpx;
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+.tn-picker__content__body__view.data-v-44db1900 {
+  height: 100%;
+  box-sizing: border-box;
+}
+.tn-picker__content__body__item.data-v-44db1900 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 32rpx;
+  color: #080808;
+  padding: 0 8rpx;
+}
+.tn-picker__content__body__item--text.data-v-44db1900 {
+  font-size: 24rpx;
+  padding-left: 8rpx;
+}
+

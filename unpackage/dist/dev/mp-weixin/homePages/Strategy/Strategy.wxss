@@ -1,0 +1,177 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为Tuniao UI的集成样式文件，为scss预处理器，其中包含了一些"tn-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * Tuniao UI自定义的css类名和scss变量，均以"tn-"开头，不会造成冲突，请放心使用 
+ */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.data-v-1bc0b2f2 .u-tabbar-item.data-v-b8fe2b06 {
+  margin-right: -30rpx;
+}
+.u-content.data-v-1bc0b2f2 {
+  padding: 24rpx;
+}
+.warp.data-v-1bc0b2f2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 500rpx;
+}
+.rect.data-v-1bc0b2f2 {
+  width: 100%;
+}
+.tn-custom-nav-bar__back.data-v-1bc0b2f2 {
+  width: 60%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 1000rpx;
+  border: 1rpx solid rgba(255, 255, 255, 0.5);
+  color: #FFFFFF;
+  font-size: 18px;
+}
+.tn-custom-nav-bar__back .icon.data-v-1bc0b2f2 {
+  display: block;
+  flex: 1;
+  margin: auto;
+  text-align: center;
+}
+/* 顶部渐变*/
+.tn-navbg.data-v-1bc0b2f2 {
+  background: linear-gradient(-120deg, #F15BB5, #9A5CE5, #01BEFF, #00F5D4);
+  background-size: 500% 500%;
+  -webkit-animation: gradientBG-data-v-1bc0b2f2 15s ease infinite;
+          animation: gradientBG-data-v-1bc0b2f2 15s ease infinite;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+@-webkit-keyframes gradientBG-data-v-1bc0b2f2 {
+0% {
+    background-position: 0% 50%;
+}
+50% {
+    background-position: 100% 50%;
+}
+100% {
+    background-position: 0% 50%;
+}
+}
+@keyframes gradientBG-data-v-1bc0b2f2 {
+0% {
+    background-position: 0% 50%;
+}
+50% {
+    background-position: 100% 50%;
+}
+100% {
+    background-position: 0% 50%;
+}
+}
+.footerfixed.data-v-1bc0b2f2 {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0rpx 0rpx 30rpx 0rpx rgba(0, 0, 0, 0.07);
+}
+.tabbar.data-v-1bc0b2f2 {
+  align-items: center;
+  min-height: 102rpx;
+  padding: 0;
+  height: calc(102rpx + env(safe-area-inset-bottom) / 2);
+  padding-bottom: calc(30rpx + env(safe-area-inset-bottom) / 2);
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+}
+.tn-tabbar-height.data-v-1bc0b2f2 {
+  min-height: 80rpx;
+  height: calc(80rpx + env(safe-area-inset-bottom) / 2);
+}
+.header-content.data-v-1bc0b2f2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+/* 标题 */
+.uni-title.data-v-1bc0b2f2 {
+  display: flex;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #3b4144;
+}
+/* 描述 额外文本 */
+.uni-note.data-v-1bc0b2f2 {
+  color: #999;
+  font-size: 12px;
+}
+.footer.data-v-1bc0b2f2 {
+  display: flex;
+  align-items: center;
+}
+.footer-button.data-v-1bc0b2f2 {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  height: 30px;
+  color: #fff;
+}
+.banner.data-v-1bc0b2f2 {
+  position: relative;
+  margin: 0 15px;
+  height: 180px;
+  overflow: hidden;
+}
+.banner-img.data-v-1bc0b2f2 {
+  position: absolute;
+  width: 100%;
+}
+.banner-title.data-v-1bc0b2f2 {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  padding: 0 15px;
+  width: 100%;
+  bottom: 0;
+  height: 30px;
+  font-size: 14px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.uni-ellipsis.data-v-1bc0b2f2 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.article-title.data-v-1bc0b2f2 {
+  padding: 20px 15px;
+  margin-top: 16rpx;
+  padding-bottom: 0;
+  font-size: 36rpx;
+  line-height: 60rpx;
+}
+.article-content.data-v-1bc0b2f2 {
+  padding: 10px;
+  font-size: 15px;
+  overflow: hidden;
+}
+

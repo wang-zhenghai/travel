@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为Tuniao UI的集成样式文件，为scss预处理器，其中包含了一些"tn-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * Tuniao UI自定义的css类名和scss变量，均以"tn-"开头，不会造成冲突，请放心使用 
+ */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.search-box.data-v-e541d712 {
+  display: flex;
+  align-items: center;
+  margin: 0 24rpx;
+  height: 44px;
+  margin-top: 14rpx;
+}
+/* 底部安全边距 start*/
+.tn-tabbar-height.data-v-e541d712 {
+  min-height: 120rpx;
+  height: calc(140rpx + env(safe-area-inset-bottom) / 2);
+  height: calc(140rpx + constant(safe-area-inset-bottom));
+}
+.blogger__item.data-v-e541d712 {
+  padding: 30rpx;
+}
+.blogger__author__btn.data-v-e541d712 {
+  margin-right: -12rpx;
+  opacity: 0.5;
+}
+.blogger__desc.data-v-e541d712 {
+  line-height: 55rpx;
+}
+.blogger__desc__label.data-v-e541d712 {
+  padding: 0 20rpx;
+  margin: 0rpx 18rpx 0 0;
+}
+.blogger__desc__label--prefix.data-v-e541d712 {
+  color: #00FFC8;
+  padding-right: 10rpx;
+}
+.blogger__content.data-v-e541d712 {
+  margin-top: 18rpx;
+  padding-right: 18rpx;
+}
+.blogger__content__data.data-v-e541d712 {
+  line-height: 46rpx;
+  text-align: justify;
+  overflow: hidden;
+  transition: all 0.25s ease-in-out;
+}
+.blogger__content__status.data-v-e541d712 {
+  margin-top: 10rpx;
+  font-size: 26rpx;
+  color: #82B2FF;
+}
+.blogger__main-image.data-v-e541d712 {
+  border-radius: 16rpx;
+}
+.blogger__main-image--1.data-v-e541d712 {
+  max-width: 80%;
+  max-height: 300rpx;
+}
+.blogger__main-image--2.data-v-e541d712 {
+  max-width: 260rpx;
+  max-height: 260rpx;
+}
+.blogger__main-image--3.data-v-e541d712 {
+  height: 212rpx;
+  width: 100%;
+}
+.blogger__count-icon.data-v-e541d712 {
+  font-size: 40rpx;
+  padding-right: 5rpx;
+}
+.blogger__ad.data-v-e541d712 {
+  width: 100%;
+  height: 500rpx;
+  -webkit-transform: translate3d(0px, 0px, 0px) !important;
+          transform: translate3d(0px, 0px, 0px) !important;
+}
+.blogger__ad.data-v-e541d712  .uni-swiper-slide-frame {
+  -webkit-transform: translate3d(0px, 0px, 0px) !important;
+          transform: translate3d(0px, 0px, 0px) !important;
+}
+.blogger__ad .uni-swiper-slide-frame.data-v-e541d712 {
+  -webkit-transform: translate3d(0px, 0px, 0px) !important;
+          transform: translate3d(0px, 0px, 0px) !important;
+}
+.blogger__ad__item.data-v-e541d712 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transform-origin: left center;
+          transform-origin: left center;
+  -webkit-transform: translate3d(100%, 0px, 0px) scale(1) !important;
+          transform: translate3d(100%, 0px, 0px) scale(1) !important;
+  transition: -webkit-transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+  z-index: 1;
+}
+.blogger__ad__item--0.data-v-e541d712 {
+  -webkit-transform: translate3d(0%, 0px, 0px) scale(1) !important;
+          transform: translate3d(0%, 0px, 0px) scale(1) !important;
+  z-index: 4;
+}
+.blogger__ad__item--1.data-v-e541d712 {
+  -webkit-transform: translate3d(13%, 0px, 0px) scale(0.9) !important;
+          transform: translate3d(13%, 0px, 0px) scale(0.9) !important;
+  z-index: 3;
+}
+.blogger__ad__item--2.data-v-e541d712 {
+  -webkit-transform: translate3d(26%, 0px, 0px) scale(0.8) !important;
+          transform: translate3d(26%, 0px, 0px) scale(0.8) !important;
+  z-index: 2;
+}
+.blogger__ad__content.data-v-e541d712 {
+  border-radius: 40rpx;
+  width: 640rpx;
+  height: 500rpx;
+  overflow: hidden;
+}
+.blogger__ad__image.data-v-e541d712 {
+  width: 100%;
+  height: 100%;
+}
+

@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "tn-tag": "/tuniao-ui/components/tn-tag/tn-tag"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "活动详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "tn-nav-bar": "/tuniao-ui/components/tn-nav-bar/tn-nav-bar",
+    "tn-read-more": "/tuniao-ui/components/tn-read-more/tn-read-more",
+    "tn-popup": "/tuniao-ui/components/tn-popup/tn-popup",
+    "tn-input": "/tuniao-ui/components/tn-input/tn-input",
+    "u-line": "/node-modules/uview-ui/components/u-line/u-line",
+    "u--textarea": "/node-modules/uview-ui/components/u--textarea/u--textarea",
+    "tn-button": "/tuniao-ui/components/tn-button/tn-button",
+    "tn-modal": "/tuniao-ui/components/tn-modal/tn-modal",
+    "u-modal": "/node-modules/uview-ui/components/u-modal/u-modal"
+  }
+}

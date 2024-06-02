@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "创建活动",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "tn-nav-bar": "/tuniao-ui/components/tn-nav-bar/tn-nav-bar",
+    "tn-image-upload-drag": "/tuniao-ui/components/tn-image-upload-drag/tn-image-upload-drag",
+    "tn-picker": "/tuniao-ui/components/tn-picker/tn-picker",
+    "u-overlay": "/node-modules/uview-ui/components/u-overlay/u-overlay",
+    "tn-circle-progress": "/tuniao-ui/components/tn-circle-progress/tn-circle-progress",
+    "u-picker": "/node-modules/uview-ui/components/u-picker/u-picker",
+    "tn-button": "/tuniao-ui/components/tn-button/tn-button"
+  }
+}

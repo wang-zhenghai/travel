@@ -1,0 +1,779 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为Tuniao UI的集成样式文件，为scss预处理器，其中包含了一些"tn-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * Tuniao UI自定义的css类名和scss变量，均以"tn-"开头，不会造成冲突，请放心使用 
+ */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page.data-v-92bb8f34 {
+  background-color: #eee;
+  height: 100%;
+}
+.text-show.data-v-92bb8f34 {
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.pubuBox.data-v-92bb8f34 {
+  padding: 22rpx;
+}
+.pubuItem.data-v-92bb8f34 {
+  -webkit-column-count: 2;
+          column-count: 2;
+  -webkit-column-gap: 20rpx;
+          column-gap: 20rpx;
+}
+.item-masonry.data-v-92bb8f34 {
+  box-sizing: border-box;
+  border-radius: 15rpx;
+  overflow: hidden;
+  background-color: #fff;
+  -webkit-column-break-inside: avoid;
+          break-inside: avoid;
+  /*避免在元素内部插入分页符*/
+  box-sizing: border-box;
+  margin-bottom: 20rpx;
+  box-shadow: 0px 0px 28rpx 1rpx rgba(78, 101, 153, 0.14);
+}
+.item-masonry image.data-v-92bb8f34 {
+  width: 100%;
+}
+.listtitle.data-v-92bb8f34 {
+  padding-left: 22rpx;
+  font-size: 24rpx;
+  padding-bottom: 22rpx;
+}
+.listtitle .listtitle1.data-v-92bb8f34 {
+  line-height: 39rpx;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  font-size: 14px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  min-height: 39rpx;
+  max-height: 78rpx;
+  color: black;
+  font-weight: 300;
+}
+.listtitle .listtitle2.data-v-92bb8f34 {
+  color: #ff0000;
+  font-size: 32rpx;
+  line-height: 32rpx;
+  font-weight: bold;
+  padding-top: 22rpx;
+}
+.listtitle .listtitle2 .listtitle2son.data-v-92bb8f34 {
+  font-size: 32rpx;
+}
+.listtitle .listtitle3.data-v-92bb8f34 {
+  font-size: 28rpx;
+  color: #909399;
+  line-height: 32rpx;
+  padding-top: 22rpx;
+}
+.Index.data-v-92bb8f34 {
+  width: 100%;
+  height: 100%;
+}
+.user.data-v-92bb8f34 {
+  margin-top: 6rpx;
+}
+.user image.data-v-92bb8f34 {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.user .username.data-v-92bb8f34 {
+  vertical-align: middle;
+  font-size: 13px;
+}
+.template-index.data-v-92bb8f34 {
+  max-height: 100vh;
+}
+.tn-tabbar-height.data-v-92bb8f34 {
+  min-height: 100rpx;
+  height: calc(120rpx + env(safe-area-inset-bottom) / 2);
+}
+/* 轮播视觉差 start */
+.card-swiper.data-v-92bb8f34 {
+  height: 540rpx !important;
+}
+.card-swiper swiper-item.data-v-92bb8f34 {
+  width: 750rpx !important;
+  left: 0rpx;
+  box-sizing: border-box;
+  overflow: initial;
+}
+.card-swiper swiper-item .swiper-item.data-v-92bb8f34 {
+  width: 100%;
+  display: block;
+  height: 100%;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  transition: all 0.2s ease-in 0s;
+  will-change: transform;
+  overflow: hidden;
+}
+.card-swiper swiper-item.cur .swiper-item.data-v-92bb8f34 {
+  -webkit-transform: none;
+          transform: none;
+  transition: all 0.2s ease-in 0s;
+  will-change: transform;
+}
+.card-swiper swiper-item .swiper-item-text.data-v-92bb8f34 {
+  margin-top: -320rpx;
+  text-align: center;
+  width: 100%;
+  display: block;
+  height: 50%;
+  border-radius: 10rpx;
+  -webkit-transform: translate(100rpx, 0rpx) scale(0.9, 0.9);
+          transform: translate(100rpx, 0rpx) scale(0.9, 0.9);
+  transition: all 0.6s ease 0s;
+  will-change: transform;
+  overflow: hidden;
+}
+.card-swiper swiper-item.cur .swiper-item-text.data-v-92bb8f34 {
+  margin-top: -320rpx;
+  width: 100%;
+  -webkit-transform: translate(0rpx, 0rpx) scale(0.9, 0.9);
+          transform: translate(0rpx, 0rpx) scale(0.9, 0.9);
+  transition: all 0.6s ease 0s;
+  will-change: transform;
+}
+.image-banner.data-v-92bb8f34 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-banner image.data-v-92bb8f34 {
+  width: 100%;
+  height: 100%;
+}
+/* 轮播指示点 start*/
+.indication.data-v-92bb8f34 {
+  z-index: 9999;
+  width: 100%;
+  height: 36rpx;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.spot.data-v-92bb8f34 {
+  background-color: #FFFFFF;
+  opacity: 0.6;
+  width: 10rpx;
+  height: 10rpx;
+  border-radius: 20rpx;
+  top: -60rpx;
+  margin: 0 8rpx !important;
+  position: relative;
+}
+.spot.active.data-v-92bb8f34 {
+  opacity: 1;
+  width: 30rpx;
+  background-color: #FFFFFF;
+}
+/* 简历推荐 start */
+.card-swiper2.data-v-92bb8f34 {
+  height: 420rpx !important;
+  overflow: hidden;
+}
+.card-swiper2 swiper-item.data-v-92bb8f34 {
+  width: 680rpx !important;
+  left: 30rpx;
+  box-sizing: border-box;
+  overflow: initial;
+  padding: 0 0rpx 40rpx 0;
+}
+.card-swiper2 swiper-item .swiper-item1.data-v-92bb8f34 {
+  width: 100%;
+  display: block;
+  height: 100%;
+  -webkit-transform: scale(0.97);
+          transform: scale(0.97);
+  transition: all 0.2s ease-in 0s;
+  will-change: transform;
+  background-color: #E7FAFE;
+}
+.card-swiper2 swiper-item.cur .swiper-item1.data-v-92bb8f34 {
+  -webkit-transform: none;
+          transform: none;
+  transition: all 0.2s ease-in 0s;
+  will-change: transform;
+}
+.card-swiper2 swiper-item .swiper-item2.data-v-92bb8f34 {
+  margin-top: -180rpx;
+  width: 100%;
+  display: block;
+  height: 50%;
+  border-radius: 50%;
+  -webkit-transform: translate(510rpx, -160rpx) scale(0.9, 0.9);
+          transform: translate(510rpx, -160rpx) scale(0.9, 0.9);
+  transition: all 0.3s ease 0s;
+  will-change: transform;
+}
+.card-swiper2 swiper-item.cur .swiper-item2.data-v-92bb8f34 {
+  margin-top: -180rpx;
+  width: 100%;
+  -webkit-transform: translate(510rpx, -150rpx) scale(0.9, 0.9);
+          transform: translate(510rpx, -150rpx) scale(0.9, 0.9);
+  transition: all 0.3s ease 0s;
+  will-change: transform;
+}
+.card-swiper2 swiper-item .swiper-item-text.data-v-92bb8f34 {
+  margin-top: -270rpx;
+  width: 100%;
+  display: block;
+  height: 100%;
+  border-radius: 10rpx;
+  -webkit-transform: translate(30rpx, -20rpx) scale(0.8, 0.8);
+          transform: translate(30rpx, -20rpx) scale(0.8, 0.8);
+  transition: all 0.6s ease 0s;
+  will-change: transform;
+  overflow: hidden;
+}
+.card-swiper2 swiper-item.cur .swiper-item-text.data-v-92bb8f34 {
+  margin-top: -270rpx;
+  width: 100%;
+  -webkit-transform: translate(20rpx, 0rpx) scale(0.9, 0.9);
+          transform: translate(20rpx, 0rpx) scale(0.9, 0.9);
+  transition: all 0.6s ease 0s;
+  will-change: transform;
+}
+/* 底部tabbar假阴影 start*/
+.bg-tabbar-shadow.data-v-92bb8f34 {
+  background-image: repeating-linear-gradient(to top, rgba(0, 0, 0, 0.1) 10rpx, #FFFFFF, #FFFFFF);
+  position: fixed;
+  bottom: 0;
+  height: 450rpx;
+  width: 100vw;
+  z-index: -1;
+}
+/* 图标容器12 start */
+.tn-three.data-v-92bb8f34 {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  bottom: 50%;
+  left: 50%;
+  -webkit-transform: translate(-38rpx, -20rpx) rotateX(20deg) rotateY(10deg) rotateZ(-20deg);
+          transform: translate(-38rpx, -20rpx) rotateX(20deg) rotateY(10deg) rotateZ(-20deg);
+  text-shadow: -1rpx 2rpx 0 #f0f0f0, -2rpx 4rpx 0 #f0f0f0, -10rpx 20rpx 30rpx rgba(0, 0, 0, 0.2);
+}
+.icon12__item.data-v-92bb8f34 {
+  width: 30%;
+  background-color: #FFFFFF;
+  border-radius: 10rpx;
+  padding: 30rpx;
+  margin: 20rpx 10rpx;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  transition: -webkit-transform 0.3s linear;
+  transition: transform 0.3s linear;
+  transition: transform 0.3s linear, -webkit-transform 0.3s linear;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+.icon12__item--icon.data-v-92bb8f34 {
+  width: 100rpx;
+  height: 100rpx;
+  font-size: 60rpx;
+  border-radius: 50%;
+  margin-bottom: 18rpx;
+  position: relative;
+  z-index: 1;
+}
+.icon12__item--icon.data-v-92bb8f34::after {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  border-radius: inherit;
+  opacity: 1;
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+  background-size: 100% 100%;
+  background-image: url(https://resource.tuniaokj.com/images/cool_bg_image/icon_bg6.png);
+}
+/* 自定义导航栏内容 start */
+.custom-nav.data-v-92bb8f34 {
+  height: 100%;
+}
+.custom-nav__back.data-v-92bb8f34 {
+  margin: auto 5rpx;
+  font-size: 40rpx;
+  margin-right: 10rpx;
+  margin-left: 30rpx;
+  flex-basis: 5%;
+}
+.custom-nav__search.data-v-92bb8f34 {
+  flex-basis: 60%;
+  width: 100%;
+  height: 100%;
+}
+.custom-nav__search__box.data-v-92bb8f34 {
+  width: 100%;
+  height: 70%;
+  padding: 10rpx 0;
+  margin: 0 30rpx;
+  border-radius: 60rpx 60rpx 0 60rpx;
+  font-size: 24rpx;
+}
+.custom-nav__search__icon.data-v-92bb8f34 {
+  padding-right: 10rpx;
+  margin-left: 20rpx;
+  font-size: 30rpx;
+}
+.logo-image.data-v-92bb8f34 {
+  width: 65rpx;
+  height: 65rpx;
+  position: relative;
+}
+.logo-pic.data-v-92bb8f34 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-radius: 50%;
+}
+/* 自定义导航栏内容 end */
+/* 热门图片 start*/
+.image-tuniao1.data-v-92bb8f34 {
+  padding: 165rpx 0rpx;
+  font-size: 40rpx;
+  font-weight: 300;
+  position: relative;
+}
+.image-tuniao2.data-v-92bb8f34 {
+  padding: 75rpx 0rpx;
+  font-size: 40rpx;
+  font-weight: 300;
+  position: relative;
+}
+.image-tuniao3.data-v-92bb8f34 {
+  padding: 90rpx 0rpx;
+  font-size: 40rpx;
+  font-weight: 300;
+  position: relative;
+}
+.image-pic.data-v-92bb8f34 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-radius: 10rpx;
+}
+/* 胶囊banner*/
+.image-capsule.data-v-92bb8f34 {
+  padding: 100rpx 0rpx;
+  font-size: 40rpx;
+  font-weight: 300;
+  position: relative;
+}
+.image-piccapsule.data-v-92bb8f34 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-radius: 20rpx 20rpx 0 0;
+}
+/* 标题 start */
+.nav_title.data-v-92bb8f34 {
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.nav_title--wrap.data-v-92bb8f34 {
+  position: relative;
+  display: flex;
+  height: 120rpx;
+  font-size: 46rpx;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  background-image: url(https://resource.tuniaokj.com/images/title_bg/title00.png);
+  background-size: cover;
+}
+/* 标题 end */
+/* 游记展示 start */
+.shopList.data-v-92bb8f34 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.shopList .showListItem.data-v-92bb8f34 {
+  width: 46%;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+.shopList .showListItem .title.data-v-92bb8f34 {
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: bold;
+  color: #333;
+  width: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  padding: 0 2px;
+  box-sizing: border-box;
+  margin-bottom: 2px;
+}
+.shopList image.data-v-92bb8f34 {
+  width: 100%;
+  border-radius: 5%;
+  height: 260px;
+}
+.user image.data-v-92bb8f34 {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.user .username.data-v-92bb8f34 {
+  vertical-align: middle;
+  font-weight: 490;
+  color: black;
+}
+/* 业务展示 end */
+/* 底部tabbar start*/
+.footerfixed.data-v-92bb8f34 {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 999;
+  background-color: #FFFFFF;
+  box-shadow: 0rpx 0rpx 30rpx 0rpx rgba(0, 0, 0, 0.07);
+}
+.tabbar.data-v-92bb8f34 {
+  display: flex;
+  align-items: center;
+  min-height: 110rpx;
+  justify-content: space-between;
+  padding: 0;
+  height: calc(110rpx + env(safe-area-inset-bottom) / 2);
+  padding-bottom: calc(env(safe-area-inset-bottom) / 2);
+}
+.tabbar .action.data-v-92bb8f34 {
+  font-size: 22rpx;
+  position: relative;
+  flex: 1;
+  text-align: center;
+  padding: 0;
+  display: block;
+  height: auto;
+  line-height: 1;
+  margin: 0;
+  overflow: initial;
+}
+.bar-center.data-v-92bb8f34 {
+  -webkit-animation: suspension-data-v-92bb8f34 3s ease-in-out infinite;
+          animation: suspension-data-v-92bb8f34 3s ease-in-out infinite;
+}
+@-webkit-keyframes suspension-data-v-92bb8f34 {
+0%,
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+50% {
+    -webkit-transform: translateY(-0.8rem);
+            transform: translateY(-0.8rem);
+}
+}
+@keyframes suspension-data-v-92bb8f34 {
+0%,
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+50% {
+    -webkit-transform: translateY(-0.8rem);
+            transform: translateY(-0.8rem);
+}
+}
+.uni-list.data-v-92bb8f34 {
+  background-color: #FFFFFF;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.uni-list.data-v-92bb8f34:after {
+  position: absolute;
+  z-index: 10;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  content: '';
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  background-color: #c8c7cc;
+}
+.uni-list.data-v-92bb8f34::before {
+  position: absolute;
+  z-index: 10;
+  right: 0;
+  top: 0;
+  left: 0;
+  height: 1px;
+  content: '';
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  background-color: #c8c7cc;
+}
+.uni-list-cell.data-v-92bb8f34 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.uni-list-cell-hover.data-v-92bb8f34 {
+  background-color: #eee;
+}
+.uni-list-cell.data-v-92bb8f34::after {
+  position: absolute;
+  z-index: 3;
+  right: 0;
+  bottom: 0;
+  left: 30rpx;
+  height: 1px;
+  content: '';
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  background-color: #c8c7cc;
+}
+.uni-list .uni-list-cell.data-v-92bb8f34:last-child::after {
+  height: 0rpx;
+}
+/* 图文列表 */
+.uni-media-list.data-v-92bb8f34 {
+  padding: 22rpx 30rpx;
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+.uni-navigate-right.uni-media-list.data-v-92bb8f34 {
+  padding-right: 74rpx;
+}
+.uni-pull-right.data-v-92bb8f34 {
+  flex-direction: row-reverse;
+}
+.uni-pull-right > .uni-media-list-logo.data-v-92bb8f34 {
+  margin-right: 0rpx;
+  margin-left: 20rpx;
+}
+.uni-media-list-logo image.data-v-92bb8f34 {
+  height: 100%;
+  width: 100%;
+}
+.uni-media-list-text-bottom.data-v-92bb8f34 {
+  width: 100%;
+  line-height: 30rpx;
+  font-size: 26rpx;
+  color: #8f8f94;
+}
+.uni-media-list-logo.data-v-92bb8f34 {
+  width: 180rpx;
+  height: 140rpx;
+  margin-right: 20rpx;
+}
+.uni-media-list-body.data-v-92bb8f34 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  overflow: hidden;
+  height: auto;
+}
+.uni-media-list-text-top.data-v-92bb8f34 {
+  width: 100%;
+  line-height: 36rpx;
+  font-size: 30rpx;
+  height: 74rpx;
+  font-size: 28rpx;
+  overflow: hidden;
+}
+.uni-media-list-text-bottom.data-v-92bb8f34 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.tabbar .action .bar-icon.data-v-92bb8f34 {
+  width: 100rpx;
+  position: relative;
+  display: block;
+  height: auto;
+  margin: 0 auto 10rpx;
+  text-align: center;
+  font-size: 42rpx;
+}
+.tabbar .action .bar-icon image.data-v-92bb8f34 {
+  width: 50rpx;
+  height: 50rpx;
+  display: inline-block;
+}
+.tabbar .action .bar-circle.data-v-92bb8f34 {
+  position: relative;
+  display: block;
+  margin: 0rpx auto 0rpx;
+  text-align: center;
+  font-size: 52rpx;
+  line-height: 90rpx;
+  width: 100rpx !important;
+  height: 100rpx !important;
+  overflow: hidden;
+}
+.tabbar .action .bar-circle image.data-v-92bb8f34 {
+  width: 100rpx;
+  height: 100rpx;
+  display: inline-block;
+  margin: 0rpx auto 0rpx;
+}
+/* 流星+悬浮 */
+.nav-index-button.data-v-92bb8f34 {
+  -webkit-animation: suspension-data-v-92bb8f34 3s ease-in-out infinite;
+          animation: suspension-data-v-92bb8f34 3s ease-in-out infinite;
+  z-index: 999999;
+}
+.nav-index-button__content.data-v-92bb8f34 {
+  position: absolute;
+  width: 100rpx;
+  height: 100rpx;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.nav-index-button__content--icon.data-v-92bb8f34 {
+  width: 100rpx;
+  height: 100rpx;
+  font-size: 60rpx;
+  border-radius: 50%;
+  margin-bottom: 18rpx;
+  position: relative;
+  z-index: 1;
+  -webkit-transform: scale(0.85);
+          transform: scale(0.85);
+}
+.nav-index-button__content--icon.data-v-92bb8f34::after {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  border-radius: inherit;
+  opacity: 1;
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+  background-size: 100% 100%;
+}
+.nav-index-button__meteor.data-v-92bb8f34 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100rpx;
+  height: 100rpx;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform: translate(-50%, -50%) rotateY(75deg) rotateZ(10deg);
+          transform: translate(-50%, -50%) rotateY(75deg) rotateZ(10deg);
+}
+.nav-index-button__meteor__wrapper.data-v-92bb8f34 {
+  width: 100rpx;
+  height: 100rpx;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-animation: spin-data-v-92bb8f34 20s linear infinite;
+          animation: spin-data-v-92bb8f34 20s linear infinite;
+}
+.nav-index-button__meteor__item.data-v-92bb8f34 {
+  position: absolute;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 1000rpx;
+  left: 0;
+  top: 0;
+}
+.nav-index-button__meteor__item--pic.data-v-92bb8f34 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(https://resource.tuniaokj.com/images/cool_bg_image/arc1.png) no-repeat center center;
+  background-size: 100% 100%;
+  -webkit-animation: arc-data-v-92bb8f34 4s linear infinite;
+          animation: arc-data-v-92bb8f34 4s linear infinite;
+}
+@keyframes suspension-data-v-92bb8f34 {
+0%,
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+50% {
+    -webkit-transform: translateY(-0.6rem);
+            transform: translateY(-0.6rem);
+}
+}
+@-webkit-keyframes spin-data-v-92bb8f34 {
+0% {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+}
+100% {
+    -webkit-transform: rotateX(-360deg);
+            transform: rotateX(-360deg);
+}
+}
+@keyframes spin-data-v-92bb8f34 {
+0% {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+}
+100% {
+    -webkit-transform: rotateX(-360deg);
+            transform: rotateX(-360deg);
+}
+}
+@-webkit-keyframes arc-data-v-92bb8f34 {
+to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+}
+}
+@keyframes arc-data-v-92bb8f34 {
+to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+}
+}
+

@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["tuniao-ui/components/tn-grid/tn-grid"],{"3bb4":function(t,n,e){"use strict";e.d(n,"b",(function(){return r})),e.d(n,"c",(function(){return a})),e.d(n,"a",(function(){}));var r=function(){var t=this.$createElement;this._self._c},a=[]},"440e":function(t,n,e){},"4d53":function(t,n,e){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var r={name:"tn-grid",props:{col:{type:[Number,String],default:3},align:{type:String,default:"left"},hoverClass:{type:String,default:"tn-hover"}},data:function(){return{}},watch:{parentData:function(){this.children.length&&this.children.map((function(t){"function"===typeof t.updateParentData&&t.updateParentData()}))}},created:function(){this.children=[]},computed:{parentData:function(){return[this.hoverClass,this.col,this.border]},gridAlignStyle:function(){switch(this.align){case"left":return"flex-start";case"center":return"center";case"right":return"flex-end";default:return"flex-start"}}},methods:{click:function(t){this.$emit("click",t)}}};n.default=r},a161:function(t,n,e){"use strict";e.r(n);var r=e("4d53"),a=e.n(r);for(var i in r)["default"].indexOf(i)<0&&function(t){e.d(n,t,(function(){return r[t]}))}(i);n["default"]=a.a},de2b:function(t,n,e){"use strict";e.r(n);var r=e("3bb4"),a=e("a161");for(var i in a)["default"].indexOf(i)<0&&function(t){e.d(n,t,(function(){return a[t]}))}(i);e("fdb5");var u=e("f0c5"),c=Object(u["a"])(a["default"],r["b"],r["c"],!1,null,"7a7379bf",null,!1,r["a"],void 0);n["default"]=c.exports},fdb5:function(t,n,e){"use strict";var r=e("440e"),a=e.n(r);a.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'tuniao-ui/components/tn-grid/tn-grid-create-component',
+    {
+        'tuniao-ui/components/tn-grid/tn-grid-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("de2b"))
+        })
+    },
+    [['tuniao-ui/components/tn-grid/tn-grid-create-component']]
+]);

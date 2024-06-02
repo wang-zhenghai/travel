@@ -1,0 +1,22 @@
+{
+  "component": true,
+  "usingComponents": {
+    "tn-nav-bar": "/tuniao-ui/components/tn-nav-bar/tn-nav-bar",
+    "tn-tabs": "/tuniao-ui/components/tn-tabs/tn-tabs",
+    "tn-avatar-group": "/tuniao-ui/components/tn-avatar-group/tn-avatar-group",
+    "vr-list": "/components/vrList/vrList",
+    "water-fall": "/components/waterFall/waterFall",
+    "tn-avatar": "/tuniao-ui/components/tn-avatar/tn-avatar",
+    "tn-popup": "/tuniao-ui/components/tn-popup/tn-popup",
+    "tn-empty": "/tuniao-ui/components/tn-empty/tn-empty",
+    "tn-tag": "/tuniao-ui/components/tn-tag/tn-tag",
+    "u--input": "/node-modules/uview-ui/components/u--input/u--input",
+    "u-line": "/node-modules/uview-ui/components/u-line/u-line",
+    "tn-button": "/tuniao-ui/components/tn-button/tn-button",
+    "u--textarea": "/node-modules/uview-ui/components/u--textarea/u--textarea",
+    "u-modal": "/node-modules/uview-ui/components/u-modal/u-modal",
+    "tn-grid": "/tuniao-ui/components/tn-grid/tn-grid",
+    "tn-grid-item": "/tuniao-ui/components/tn-grid-item/tn-grid-item",
+    "tn-landscape": "/tuniao-ui/components/tn-landscape/tn-landscape"
+  }
+}

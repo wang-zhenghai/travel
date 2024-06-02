@@ -1,0 +1,125 @@
+{
+  "pages": [
+    "pages/index",
+    "pages/login/login",
+    "pages/message/message",
+    "pages/preferred/preferred"
+  ],
+  "subPackages": [
+    {
+      "root": "messagePages",
+      "pages": [
+        "privateChat",
+        "groupChat",
+        "contacts",
+        "members"
+      ]
+    },
+    {
+      "root": "partnerPages",
+      "pages": [
+        "accountManagement",
+        "activityOderation",
+        "applyManagement"
+      ]
+    },
+    {
+      "root": "interestPages",
+      "pages": [
+        "chat",
+        "my-like-blog",
+        "my-save-video",
+        "publish"
+      ]
+    },
+    {
+      "root": "homePages",
+      "pages": [
+        "about",
+        "search",
+        "loading",
+        "bigModel/bigModel",
+        "Strategy/Strategy"
+      ]
+    },
+    {
+      "root": "circlePages",
+      "pages": [
+        "blogger",
+        "edit",
+        "ranking",
+        "create",
+        "build",
+        "reserve"
+      ]
+    },
+    {
+      "root": "activityPages",
+      "pages": [
+        "editor/editor",
+        "strategyPages/strategyPages",
+        "travelPages/travelPages",
+        "activity"
+      ]
+    },
+    {
+      "root": "preferredPages",
+      "pages": [
+        "product",
+        "order",
+        "stream/stream"
+      ]
+    },
+    {
+      "root": "searchPages",
+      "pages": [
+        "attractionInfo",
+        "searchResult",
+        "classfiy",
+        "firendList",
+        "userHome",
+        "myQRCode"
+      ]
+    },
+    {
+      "root": "minePages",
+      "pages": [
+        "protocol",
+        "login",
+        "message",
+        "set",
+        "thanks",
+        "version",
+        "help",
+        "avatar",
+        "integral",
+        "signed",
+        "safety",
+        "default",
+        "reward",
+        "content",
+        "found/found",
+        "blog/blog",
+        "video/video",
+        "face-authentication/face-authentication"
+      ]
+    }
+  ],
+  "window": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "旅行·攻略",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    },
+    "webSocket": {
+      "domain": "wss://www.wangzh.work"
+    }
+  },
+  "usingComponents": {}
+}

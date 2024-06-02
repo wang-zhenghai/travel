@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "发布游记",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "tn-nav-bar": "/tuniao-ui/components/tn-nav-bar/tn-nav-bar",
+    "tn-image-upload-drag": "/tuniao-ui/components/tn-image-upload-drag/tn-image-upload-drag",
+    "u-tag": "/node-modules/uview-ui/components/u-tag/u-tag",
+    "tn-popup": "/tuniao-ui/components/tn-popup/tn-popup",
+    "tn-input": "/tuniao-ui/components/tn-input/tn-input",
+    "tn-button": "/tuniao-ui/components/tn-button/tn-button",
+    "u-overlay": "/node-modules/uview-ui/components/u-overlay/u-overlay",
+    "tn-circle-progress": "/tuniao-ui/components/tn-circle-progress/tn-circle-progress"
+  }
+}

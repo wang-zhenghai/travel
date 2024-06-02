@@ -1,0 +1,21 @@
+{
+    "id": "tuniao-circle-template",
+    "name": "旅行·攻略",
+    "displayName": "旅行·攻略",
+    "version": "1.2.2",
+    "description": "旅行·攻略小程序为广大用户提供更快更好的旅行攻略",
+    "keywords": [
+        "旅行·攻略"
+    ],
+    "dcloudext": {
+        "category": [
+            "旅行·攻略"
+        ]
+    },
+    "dependencies": {
+        "@escook/request-miniprogram": "^0.2.1",
+        "goeasy": "^2.8.8",
+        "lodash": "^4.17.21",
+        "uview-ui": "^2.0.36"
+    }
+}

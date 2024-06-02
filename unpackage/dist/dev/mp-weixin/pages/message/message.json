@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "tn-nav-bar": "/tuniao-ui/components/tn-nav-bar/tn-nav-bar",
+    "tn-tabs": "/tuniao-ui/components/tn-tabs/tn-tabs",
+    "tn-badge": "/tuniao-ui/components/tn-badge/tn-badge",
+    "liu-indexed-list": "/uni_modules/liu-indexed-list/components/liu-indexed-list/liu-indexed-list"
+  }
+}
